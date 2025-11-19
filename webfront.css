@@ -1,5 +1,10 @@
 .ipsWebFront {
-    font-size: 8px;  /* Schriftgröße für fast alles */
+	min-width: 25px;
+	text-align: center;
+	font-size: 10px;
+	height: 20px;       /* Höhe des Elements */
+	line-height: 20px;  /* Text vertikal zentrieren */
+	padding: 2px 5px;   /* Optional: Innenabstand */
 }
 
 /* Minimale Breite der Buttons. Zentrierte Ausrichtung der Schrift */
