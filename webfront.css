@@ -2,6 +2,7 @@
 	font-size: 10px;
 }
 
+
 /* Minimale Breite der Buttons. Zentrierte Ausrichtung der Schrift */
 .ipsCategory > .container .content .visual > .enum > div, 
 .ipsCategory > .container .content .visual > .selector > div, 
@@ -17,9 +18,16 @@
     box-sizing: border-box;
 }
 
-// ChatGPT:
 .ipsCategory > .container .content .visual,
 .ipsCategory > .container .extended > .textBox {
+    height: 16px !important;
+    line-height: 16px !important;
+    padding: 0 !important;
+}
+
+
+.ipsCategory > .container .content {
+    min-height: 16px !important;
     height: 16px !important;
     line-height: 16px !important;
     padding: 0 !important;
@@ -30,6 +38,24 @@
 .ipsLogin > .logo {
 	background-image: url(logo.svg);
 }
+
+
+
+/* WICHTIG: Oberster Wrapper jeder Variable */
+.ipsContainer {
+    min-height: 16px !important;
+    height: 16px !important;
+    padding: 0 !important;
+}
+
+/* Caption (Titel) ebenfalls verkleinern */
+.ipsContainer .caption {
+    min-height: 16px !important;
+    height: 16px !important;
+    line-height: 16px !important;
+    padding: 0 !important;
+}
+
 
 /* Farbe verändern */
 .ipsLogin,
@@ -62,7 +88,7 @@
     height: 16px !important;
     line-height: 16px !important;
     padding: 0 !important;
-}}
+}
 
 [class~="ipsVariableProfile[VieleAssoziationen]"] .content .visual > .enum.overflowing > div,
 [class~="ipsVariableProfile[VieleAssoziationen]"] .content .visual > .selector.overflowing > div {
