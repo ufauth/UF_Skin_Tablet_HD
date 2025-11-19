@@ -1,3 +1,7 @@
+.ipsWebFront {
+    font-size: 8px;  /* Schriftgröße für fast alles */
+}
+
 /* Minimale Breite der Buttons. Zentrierte Ausrichtung der Schrift */
 .ipsCategory > .container .content .visual > .enum > div, 
 .ipsCategory > .container .content .visual > .selector > div, 
