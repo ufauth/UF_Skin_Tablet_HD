@@ -3,8 +3,8 @@
     "version": "1.0",
     "compatible": 1,
     "title": "IP-Symcon WebFront UF",
-    "url": "http:\/\/www.ip-symcon.de\/forum\/",
-    "git": "https:\/\/github.com\/paresy\/CustomIcons.git",
+    "url": "",
+    "git": "https:\/\/github.com\/ufauth\/UF_Skin_Tablet_HD.git",
     "icons": [
 
     ]
