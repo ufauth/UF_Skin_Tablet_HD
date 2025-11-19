@@ -2,7 +2,7 @@
 .ipsCategory > .container .content .visual > .enum > div, 
 .ipsCategory > .container .content .visual > .selector > div, 
 .ipsCategory > .container .extended > .textBox > div {
-	min-width: 50px;
+	min-width: 25px;
 	text-align: center; 
 }
 
