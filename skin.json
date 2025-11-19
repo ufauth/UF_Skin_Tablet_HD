@@ -1,7 +1,8 @@
 {
-    "author": "IP-Symcon User",
+    "author": "UF",
     "version": "1.0",
     "compatible": 1,
+    "title": "IP-Symcon WebFront UF",
     "url": "http:\/\/www.ip-symcon.de\/forum\/",
     "git": "https:\/\/github.com\/paresy\/CustomIcons.git",
     "icons": [
