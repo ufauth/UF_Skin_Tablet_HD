@@ -1,27 +1,51 @@
-// Lala
-/* Hintergrund dunkel */
-body {
-    background-color: #1e1e1e !important;
-    color: #ffffff !important;
+/* Minimale Breite der Buttons. Zentrierte Ausrichtung der Schrift */
+.ipsCategory > .container .content .visual > .enum > div, 
+.ipsCategory > .container .content .visual > .selector > div, 
+.ipsCategory > .container .extended > .textBox > div {
+	min-width: 50px;
+	text-align: center; 
 }
 
-/* Buttons kleiner & runder */
-.button, .ui-button {
-    font-size: 13px !important;
-    padding: 4px 8px !important;
-    border-width: 1px !important;
-    border-radius: 6px !important;
-    background-color: #007acc !important;
-    color: white !important;
+/* Logo austauschen */
+
+.ipsLogin > .logo {
+	background-image: url(logo.svg);
 }
 
-/* Kacheln mit Schatten & runden Ecken */
-.tile, .container-tile {
-    border-radius: 12px !important;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.4) !important;
+/* Farbe verändern */
+.ipsLogin,
+.ipsWebFront {
+	background-color: #555555;
 }
 
-/* Titel farblich betont */
-h1, h2, h3 {
-    color: #00d1b2 !important;
+.ipsTabPane > .navigation ,
+.ipsContentChanger > .navigation {
+	background-color: #111111;
+}
+
+/* Animation für alle Graphen deaktivieren */
+.ipsChart,
+.ipsChartDialog .content .ipsContainer {
+  -webkit-animation-name: none !important;
+  -moz-animation-name: none !important;
+  -ms-animation-name: none !important;
+  animation-name: none !important;
+}
+
+/* Spezielle HTMLBox ohne Titel (Profil: HTMLBox.NoTitle) */
+[class~="ipsVariableProfile[HTMLBox.NoTitle]"] .content.tr {
+    display: none!important;
+}
+
+/* Alle Elemente aus Enums/Selectors für das Variablenprofil "VieleAssoziationen" anzeigen */
+[class~="ipsVariableProfile[VieleAssoziationen]"] .content .visual > .enum.overflowing,
+[class~="ipsVariableProfile[VieleAssoziationen]"] .content .visual > .selector.overflowing {
+    height: initial;
+    white-space: normal;
+}
+
+[class~="ipsVariableProfile[VieleAssoziationen]"] .content .visual > .enum.overflowing > div,
+[class~="ipsVariableProfile[VieleAssoziationen]"] .content .visual > .selector.overflowing > div {
+    display: inline-block!important;
+    pointer-events: auto!important;
 }
