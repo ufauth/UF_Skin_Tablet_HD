@@ -1,1 +1,27 @@
 /* place all your custom css here */
+/* Hintergrund dunkel */
+body {
+    background-color: #1e1e1e !important;
+    color: #ffffff !important;
+}
+
+/* Buttons kleiner & runder */
+.button, .ui-button {
+    font-size: 13px !important;
+    padding: 4px 8px !important;
+    border-width: 1px !important;
+    border-radius: 6px !important;
+    background-color: #007acc !important;
+    color: white !important;
+}
+
+/* Kacheln mit Schatten & runden Ecken */
+.tile, .container-tile {
+    border-radius: 12px !important;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.4) !important;
+}
+
+/* Titel farblich betont */
+h1, h2, h3 {
+    color: #00d1b2 !important;
+}
