@@ -1,18 +1,16 @@
 .ipsWebFront {
-	min-width: 25px;
-	text-align: center;
-	font-size: 10px;
-	height: 20px;       /* Höhe des Elements */
-	line-height: 20px;  /* Text vertikal zentrieren */
-	padding: 2px 5px;   /* Optional: Innenabstand */
+	font-size: 12px;
 }
 
 /* Minimale Breite der Buttons. Zentrierte Ausrichtung der Schrift */
 .ipsCategory > .container .content .visual > .enum > div, 
 .ipsCategory > .container .content .visual > .selector > div, 
 .ipsCategory > .container .extended > .textBox > div {
-	min-width: 25px;
-	text-align: center; 
+	min-width: 50px;
+	text-align: center;
+	height: 16px;       /* Höhe des Elements */
+	line-height: 16px;  /* Text vertikal zentrieren */
+	/* padding: 2px 5px; */    /* Optional: Innenabstand */
 }
 
 /* Logo austauschen */
